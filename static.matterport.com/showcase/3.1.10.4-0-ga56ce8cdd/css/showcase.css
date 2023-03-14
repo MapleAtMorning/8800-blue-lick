@@ -1,0 +1,259 @@
+#control-kit-wrapper #controlKit{position:absolute;top:0;right:0;z-index:65;pointer-events:none}#control-kit-wrapper #controlKit .label{position:static;background-color:transparent}#control-kit-wrapper .button{position:static;line-height:normal;padding:initial;min-width:none;transition:none;letter-spacing:normal;cursor:auto}
+.powered-by-link{font-style:normal;font-weight:400;font-size:12px;line-height:1.5;letter-spacing:.2px;color:inherit}.powered-by{display:flex;flex-flow:column nowrap;align-items:center;margin:10px 0 50px}.powered-by-label{font-weight:700;font-size:10px;letter-spacing:2.1px;line-height:1;text-transform:uppercase;margin:0;-webkit-transform:translateX(6px);transform:translateX(6px)}.powered-by-logo{margin:10px}.powered-by-link{text-decoration:underline}
+/**
+ * IBM Plex Sans font face declarations
+ * http://fonts.google.com/specimen/IBM+Plex+Sans
+ *
+ * Formats:
+ *   woff: Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+
+ *   woff2: Chrome 26+, Opera 23+, Firefox 39+
+ */
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 100;
+  src:
+    url(../fonts/ibm-plex-sans-100.woff2) format('woff2'),
+    url(../fonts/ibm-plex-sans-100.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: italic;
+  font-weight: 100;
+  src:
+    url(../fonts/ibm-plex-sans-100italic.woff2) format('woff2'),
+    url(../fonts/ibm-plex-sans-100italic.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 200;
+  src:
+    url(../fonts/ibm-plex-sans-200.woff2) format('woff2'),
+    url(../fonts/ibm-plex-sans-200.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: italic;
+  font-weight: 200;
+  src:
+    url(../fonts/ibm-plex-sans-200italic.woff2) format('woff2'),
+    url(../fonts/ibm-plex-sans-200italic.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 300;
+  src:
+    url(../fonts/ibm-plex-sans-300.woff2) format('woff2'),
+    url(../fonts/ibm-plex-sans-300.woff) format('woff');
+}
+
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: italic;
+  font-weight: 300;
+  src:
+    url(../fonts/ibm-plex-sans-300italic.woff2) format('woff2'),
+    url(../fonts/ibm-plex-sans-300italic.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url(../fonts/ibm-plex-sans-regular.woff2) format('woff2'),
+    url(../fonts/ibm-plex-sans-regular.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: italic;
+  font-weight: 400;
+  src:
+    url(../fonts/ibm-plex-sans-italic.woff2) format('woff2'),
+    url(../fonts/ibm-plex-sans-italic.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 500;
+  src:
+    url(../fonts/ibm-plex-sans-500.woff2) format('woff2'),
+    url(../fonts/ibm-plex-sans-500.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: italic;
+  font-weight: 500;
+  src:
+    url(../fonts/ibm-plex-sans-500italic.woff2) format('woff2'),
+    url(../fonts/ibm-plex-sans-500italic.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: italic;
+  font-weight: 600;
+  src:
+    url(../fonts/ibm-plex-sans-600italic.woff2) format('woff2'),
+    url(../fonts/ibm-plex-sans-600italic.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 600;
+  src:
+    url(../fonts/ibm-plex-sans-600.woff2) format('woff2'),
+    url(../fonts/ibm-plex-sans-600.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 700;
+  src:
+    url(../fonts/ibm-plex-sans-700.woff2) format('woff2'),
+    url(../fonts/ibm-plex-sans-700.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: italic;
+  font-weight: 700;
+  src:
+    url(../fonts/ibm-plex-sans-700italic.woff2) format('woff2'),
+    url(../fonts/ibm-plex-sans-700italic.woff) format('woff');
+}
+
+/**
+ * Roboto font face declarations
+ * http://fonts.google.com/specimen/Roboto
+ *
+ * Formats:
+ *   woff: Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+
+ *   woff2: Chrome 26+, Opera 23+, Firefox 39+
+ */
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  src:
+    url(../fonts/roboto-100.woff2) format('woff2'),
+    url(../fonts/roboto-100.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 100;
+  src:
+    url(../fonts/roboto-100italic.woff2) format('woff2'),
+    url(../fonts/roboto-100italic.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src:
+    url(../fonts/roboto-300.woff2) format('woff2'),
+    url(../fonts/roboto-300.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 300;
+  src:
+    url(../fonts/roboto-300italic.woff2) format('woff2'),
+    url(../fonts/roboto-300italic.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url(../fonts/roboto-regular.woff2) format('woff2'),
+    url(../fonts/roboto-regular.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src:
+    url(../fonts/roboto-italic.woff2) format('woff2'),
+    url(../fonts/roboto-italic.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src:
+    url(../fonts/roboto-500.woff2) format('woff2'),
+    url(../fonts/roboto-500.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+  src:
+    url(../fonts/roboto-500italic.woff2) format('woff2'),
+    url(../fonts/roboto-500italic.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src:
+    url(../fonts/roboto-700.woff2) format('woff2'),
+    url(../fonts/roboto-700.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src:
+    url(../fonts/roboto-700italic.woff2) format('woff2'),
+    url(../fonts/roboto-700italic.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  src:
+    url(../fonts/roboto-900.woff2) format('woff2'),
+    url(../fonts/roboto-900.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 900;
+  src:
+    url(../fonts/roboto-900italic.woff2) format('woff2'),
+    url(../fonts/roboto-900italic.woff) format('woff');
+}
+
+.sc-password-modal .modal-title{font-family:IBM Plex Sans,sans-serif;font-style:normal;font-weight:700;font-size:28px;line-height:1.285;letter-spacing:.4px;color:inherit}.sc-password-input,.sc-password-modal .modal-body{font-style:normal;font-weight:400;font-size:16px;line-height:1.625;letter-spacing:.2px;color:inherit}.sc-password-submit{font-family:IBM Plex Sans,sans-serif;font-style:normal;font-weight:700;font-size:16px;line-height:1.37;letter-spacing:2px;text-transform:uppercase;color:inherit;outline:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}@font-face{font-family:mp-font;src:url(../fonts/mp-font.woff2) format("woff2"),url(../fonts/mp-font.woff) format("woff"),url(../fonts/mp-font.svg#mp-font) format("svg");font-weight:400;font-style:normal;font-display:block}.mp-font{font-family:mp-font!important;speak:never;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.icon-toggle-pencil:before{content:"\e90c"}.icon-notes:before{content:"\e901"}.icon-brush-outline:before{content:"\e902"}.icon-comment:before{content:"\e903"}.icon-reply:before{content:"\e904"}.icon-blur-outline:before{content:"\e909"}.icon-arrows:before{content:"\e972"}.icon-error:before{content:"\e971"}.icon-info:before{content:"\e96e"}.icon-revert:before{content:"\e970"}.icon-delete:before{content:"\e952"}.icon-settings:before{content:"\e94c"}.icon-list:before{content:"\e966"}.icon-question:before{content:"\e908"}.icon-blocked:before{content:"\e90d"}.icon-dpad-down:before{content:"\e90e"}.icon-dpad-left:before{content:"\e90f"}.icon-dpad-right:before{content:"\e910"}.icon-dpad-up:before{content:"\e911"}.icon-close:before{content:"\e912"}.icon-ext-link:before{content:"\e936"}.icon-pause:before{content:"\e938"}.icon-pin:before{content:"\e939"}.icon-play-unicode:before{content:"\e93a"}.icon-fullscreen2:before{content:"\e91b"}.icon-user:before{content:"\e943"}.icon-minus:before{content:"\e94e"}.icon-zoom-reset:before{content:"\e94f"}.icon-360:before{content:"\e90b"}.icon-rotate:before{content:"\e93d"}.icon-photo-2d:before{content:"\e94a"}.icon-photo-360:before{content:"\e94b"}.icon-transitions:before{content:"\e973"}.icon-photo-add:before{content:"\e953"}.icon-hlr:before{content:"\e91c"}.icon-rotate-right:before{content:"\e961"}.icon-rotate-left:before{content:"\e962"}.icon-play:before{content:"\e93b"}.icon-start-location:before{content:"\e90a"}.icon-hlr-badge:before{content:"\e900"}.icon-eye-hide:before{content:"\e905"}.icon-eye-show:before{content:"\e906"}.icon-more-vert:before{content:"\e907"}.icon-mesh:before{content:"\e954"}.icon-vr:before{content:"\e944"}.icon-floor-controls-all:before{content:"\e914"}.icon-floor-controls:before{content:"\e915"}.icon-panorama:before{content:"\e916"}.icon-dollhouse:before{content:"\e917"}.icon-floorplan:before{content:"\e918"}.icon-fullscreen-exit:before{content:"\e919"}.icon-fullscreen:before{content:"\e91a"}.icon-share:before{content:"\e93e"}.icon-link:before{content:"\e91d"}.icon-email:before{content:"\e91e"}.icon-facebook:before{content:"\e91f"}.icon-linkedin:before{content:"\e920"}.icon-pinterest:before{content:"\e921"}.icon-twitter:before{content:"\e922"}.icon-media-mix:before{content:"\e946"}.icon-stem-height:before{content:"\e951"}.icon-toolbar-360-view:before{content:"\e956"}.icon-toolbar-edit-vr:before{content:"\e957"}.icon-toolbar-hlr:before{content:"\e958"}.icon-toolbar-labels:before{content:"\e959"}.icon-toolbar-mattertags:before{content:"\e95a"}.icon-toolbar-measurements:before{content:"\e95b"}.icon-toolbar-more-horiz:before{content:"\e95c"}.icon-toolbar-photos:before{content:"\e95d"}.icon-toolbar-scan-mgmt:before{content:"\e95e"}.icon-toolbar-start-location:before{content:"\e95f"}.icon-checkmark:before{content:"\e968"}.icon-back:before{content:"\e965"}.icon-plus:before{content:"\e967"}.icon-help:before{content:"\e96d"}.icon-escape-key:before{content:"\e96a"}.icon-draw-lines:before{content:"\e96b"}.icon-drag-edit:before{content:"\e96c"}.icon-finger-drag:before{content:"\e97b"}.icon-press-hold:before{content:"\e97c"}.icon-tape-measure:before{content:"\e964"}[class*=" icon-"],[class^=icon-]{font-family:mp-font!important;speak:never;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.sc-password-ui,[class*=" icon-"]>:not([class^=path]),[class^=icon-]>:not([class^=path]){font-family:Roboto,sans-serif}.sc-password-ui{position:fixed;top:0;left:0;width:100vw;height:100vh;display:flex;flex-direction:column;background:no-repeat 50%/cover;color:#f5f4f3;box-sizing:border-box}.sc-password-ui *,.sc-password-ui :after,.sc-password-ui :before{box-sizing:inherit}.sc-password-content{width:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;flex:1}.sc-password-modal{position:relative;display:block;width:100%;max-width:500px;padding:24px;background:transparent;color:inherit}.sc-password-modal .modal-title{margin:0 0 18px;white-space:pre-line}.sc-password-modal .modal-body{margin:0}.sc-password-modal .help-text{display:flex;flex-direction:row;align-items:center;min-height:2em}.sc-password-modal .help-text.error{color:#fa5300}.sc-password-modal .help-text.error .icon{font-size:22px;margin-right:10px;line-height:1;color:#fa5300}.sc-password-form{display:flex;flex-flow:row nowrap;justify-content:stretch;height:48px}.sc-password-input{flex:1;min-width:100px;margin:0;padding:10px 20px;color:#444;border:none;border-radius:0;outline:none}.sc-password-submit{background-color:#222;margin:0;padding:10px 40px;border:none;border-radius:0;cursor:pointer}.sc-password-submit:active,.sc-password-submit:focus,.sc-password-submit:hover{background:#ff3158;color:#fff}.sc-password-submit:disabled,.sc-password-submit[disabled]{background-color:#222;cursor:not-allowed}.sc-password-lockout{background:#fff;color:#222;max-width:460px}.sc-password-lockout .modal-header:after{display:block;content:"";margin:18px auto 18px 0;width:18px;border:solid #ff3158;border-width:0 0 1px}
+.hidden{display:none}#loading-gui{position:absolute;width:100%;height:100%;z-index:50;text-align:center;pointer-events:auto;cursor:pointer;opacity:1;transition:opacity .5s}#loading-gui.faded-out{opacity:0;pointer-events:none}#loading-gui.faded-out *{pointer-events:none!important}#loading-gui h1{position:absolute;bottom:75%;left:50%;width:80%;padding:0 25px;-webkit-transform:translate(-50%,50%);transform:translate(-50%,50%);font-size:42px;font-weight:300;color:#fff;text-shadow:0 0 10px #0f1011;line-height:1.1;letter-spacing:.6px}@media only screen and (max-height:487px){#loading-gui h1{font-size:6vh}}@media only screen and (max-aspect-ratio:3/2){#loading-gui h1{font-size:calc(3vw + 2vh)}}#loading-gui #play-prompt{margin-top:30px;font-size:20px;font-weight:300;letter-spacing:.6px;opacity:1;transition:opacity .5s}#loading-gui #play-prompt.faded-out{opacity:0;pointer-events:none}#loading-gui #play-prompt.faded-out *{pointer-events:none!important}@media only screen and (max-height:487px){#loading-gui #play-prompt{display:none}}#loading-gui .icon-play-unicode{position:absolute;height:100%;width:100%;top:0;color:#222;font-size:38px;pointer-events:auto;cursor:pointer;font-family:mp-font!important;speak:never;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}#loading-gui .icon-play-unicode:before{position:absolute;top:50%;left:50%;-webkit-transform:translate(-40%,-50%);transform:translate(-40%,-50%)}#loading-gui .loading-label{font-size:10px;letter-spacing:1.7px;line-height:22px;font-family:IBM Plex Sans;font-weight:500;color:#f5f4f3;text-transform:uppercase;text-shadow:0 0 40px rgba(0,0,0,.2)}#loading-gui #model-thumbnail{position:absolute;height:100%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}#loading-gui #tint{position:absolute;width:100%;height:100%;opacity:0;transition:opacity .5s;background-color:rgba(0,0,0,.4)}#loading-gui #tint.faded-in{opacity:1}#loading-gui #loading-powered-by{position:absolute;bottom:7%;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);text-align:center;opacity:0;transition:opacity .5s}#loading-gui #loading-powered-by.faded-in{opacity:1;pointer-events:auto}@media (max-height:487px),only screen and (max-width:487px){#loading-gui #loading-powered-by{-webkit-transform:translateX(-50%) scale(.7);transform:translateX(-50%) scale(.7);bottom:5%}}#loading-gui #loading-powered-by .loading-label{position:absolute;bottom:35px;left:36px;text-align:left;white-space:nowrap}#loading-gui #loading-powered-by #loading-mp-logo{width:150px;height:33px}#loading-gui #loading-presented-by{position:absolute;width:100%;top:60%;word-wrap:break-word;opacity:0;transition:opacity .5s}#loading-gui #loading-presented-by.faded-in{opacity:1;pointer-events:auto}@media (max-height:487px),only screen and (max-width:487px){#loading-gui #loading-presented-by{-webkit-transform:scale(.7);transform:scale(.7);top:55%}}@media only screen and (max-height:487px){#loading-gui #loading-presented-by{display:none}}#loading-gui #loading-presented-by .subheader{font-weight:300;font-size:34px;letter-spacing:.6px;margin:0}#loading-gui #loading-presented-by .loading-label{font-size:14px}#loading-gui .circle-loader{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}@media (max-height:487px),only screen and (max-width:487px){#loading-gui .circle-loader{-webkit-transform:translate(-50%,-50%) scale(.7);transform:translate(-50%,-50%) scale(.7)}}#loading-gui .circle-loader #loader-cont{font-size:10px;display:block;height:96px;width:96px;margin:0 auto;border-radius:100%;position:relative}#loading-gui .circle-loader #loader-cont.loading circle{fill:transparent;stroke:rgba(34,34,34,.7)}#loading-gui .circle-loader #loader-cont.loading #bar{stroke:#f5f4f3}#loading-gui .circle-loader #loader-cont.loading:after{content:attr(data-status);position:absolute;width:96px;height:96px;top:0;left:0;line-height:100px;letter-spacing:1.6px;font-family:IBM Plex Sans;text-transform:uppercase;font-weight:700;color:#f5f4f3;text-align:center}#loading-gui .circle-loader #loader-cont.es-MX{font-size:11px}#loading-gui .circle-loader #loader-cont.fr-FR{font-size:10px}#loading-gui .circle-loader-svg{-webkit-transform-origin:center;transform-origin:center;-webkit-transform:rotate(-90deg);transform:rotate(-90deg)}#loading-gui .circle-loader-svg circle{fill:#f5f4f3;stroke:#f5f4f3;stroke-width:4px}#loading-gui .circle-loader-svg #bar{stroke-dasharray:308;stroke-dashoffset:0;transition:stroke-dashoffset 0s linear}#loading-gui #loading-background{position:absolute;width:100%;height:100%;background-position:50% 50%;background-repeat:no-repeat;background-size:auto 100%;background-color:#222;pointer-events:auto;opacity:1;transition:opacity .5s}#loading-gui #loading-background.faded-out{opacity:0;pointer-events:none}#loading-gui #loading-background.faded-out *{pointer-events:none!important}#loading-gui.quickstart #loading-presented-by{position:fixed;top:25%;text-shadow:0 0 10px #0f1011;pointer-events:none}#loading-gui.quickstart #loading-powered-by{position:fixed;bottom:24%;pointer-events:none}
+.hidden{display:none}#error-container{position:absolute;color:#fff;font-size:16pt;font-weight:300;text-align:center;height:100vh;width:100vw;background:radial-gradient(ellipse at 50% bottom,#474d53 0,#232628 53%,#111213 100%);z-index:95}#error-container a{color:#fff;text-decoration:underline}#error-container #error-content{position:absolute;width:90%;left:50%;top:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}#error-container #error-content>*{margin:1% 0}#error-container #error-content #error-problem{font-size:170%;font-weight:500}#error-container #error-content #error-solution{font-size:130%}#error-container #error-content #error-actions{margin-top:20px}#error-container #error-content #error-actions #browser-tiles{width:100%}#error-container #error-content #error-actions #browser-tiles .tile{display:inline-block;margin:10px;padding:10px;width:21%;max-width:50px;background-color:#555;border-radius:10px}#error-container #error-content #error-actions #browser-tiles .tile img{display:inline-block;width:100%;margin:0 auto;vertical-align:middle}
+.cursor-none{cursor:none}.cursor-default{cursor:default}.cursor-move{cursor:move}.cursor-col-resize{cursor:col-resize}.cursor-row-resize{cursor:row-resize}.cursor-crosshair{cursor:crosshair}.cursor-cell{cursor:cell}.cursor-help{cursor:help}.cursor-not-allowed{cursor:not-allowed}.cursor-pointer{cursor:pointer}.cursor-text{cursor:text}.cursor-vertical-text{cursor:vertical-text}.cursor-e-resize{cursor:e-resize}.cursor-w-resize{cursor:w-resize}.cursor-n-resize{cursor:n-resize}.cursor-s-resize{cursor:s-resize}.cursor-ne-resize{cursor:ne-resize}.cursor-nw-resize{cursor:nw-resize}.cursor-se-resize{cursor:se-resize}.cursor-sw-resize{cursor:sw-resize}.cursor-ew-resize{cursor:ew-resize}.cursor-ns-resize{cursor:ns-resize}.cursor-nesw-resize{cursor:nesw-resize}.cursor-nwse-resize{cursor:nwse-resize}.cursor-zoom-in{cursor:url(./zoom-in.png) 5 5,auto;cursor:-webkit-zoom-in;cursor:zoom-in}.cursor-zoom-out{cursor:url(./zoom-out.png) 5 5,auto;cursor:-webkit-zoom-out;cursor:zoom-out}.cursor-grab{cursor:url(./grab.png),auto;cursor:-webkit-grab;cursor:grab}.cursor-grabbing{cursor:url(./grabbing.png),auto;cursor:-webkit-grabbing;cursor:grabbing}
