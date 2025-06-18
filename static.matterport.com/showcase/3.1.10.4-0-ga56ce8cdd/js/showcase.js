@@ -45408,10 +45408,20 @@
           this.previousRefreshPromise = null,
           this.containerClasses = [_, w, b],
           this.endpoint = e + "?type=3"
+          this.firstRefresh = true
       }
       return t.prototype.needsRefresh = function () {
-          var t = this.urlContainer ? this.urlContainer.expires : Date.now();
-          return Date.now() + h.a.signedUrlRefreshBuffer > t
+          //var t = this.urlContainer ? this.urlContainer.expires : Date.now();
+          //return Date.now() + h.a.signedUrlRefreshBuffer > t
+
+          // The first refresh is necessary to avoid a black screen.
+          // However any further refreshes after some time has passed can cause the movement to stop working for some reason.
+          if (this.firstRefresh) {
+            this.firstRefresh = false;
+            return true;
+          } else {
+            return false;
+          }
         },
         t.prototype.refresh = function () {
           if (!this.needsRefresh())
